@@ -10,11 +10,15 @@
 		BE1A4F9124EC69EF007E1509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A4F9024EC69EF007E1509 /* AppDelegate.swift */; };
 		BE1A4F9324EC69EF007E1509 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A4F9224EC69EF007E1509 /* SceneDelegate.swift */; };
 		BE1A4F9524EC69EF007E1509 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A4F9424EC69EF007E1509 /* ViewController.swift */; };
-		BE1A4F9824EC69EF007E1509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1A4F9624EC69EF007E1509 /* Main.storyboard */; };
 		BE1A4F9A24EC69F3007E1509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1A4F9924EC69F3007E1509 /* Assets.xcassets */; };
 		BE1A4F9D24EC69F3007E1509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1A4F9B24EC69F3007E1509 /* LaunchScreen.storyboard */; };
 		BE1A4FA824EC69F4007E1509 /* MapKitTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A4FA724EC69F4007E1509 /* MapKitTestProjectTests.swift */; };
 		BE1A4FB324EC69F4007E1509 /* MapKitTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A4FB224EC69F4007E1509 /* MapKitTestProjectUITests.swift */; };
+		BE1A4FC124EDA45D007E1509 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A4FC024EDA45D007E1509 /* CustomAnnotation.swift */; };
+		BE1A4FC324EDBCF8007E1509 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A4FC224EDBCF8007E1509 /* Place.swift */; };
+		BE1A4FCC24EF0478007E1509 /* GPXFiles in Resources */ = {isa = PBXBuildFile; fileRef = BE1A4FCB24EF0477007E1509 /* GPXFiles */; };
+		BE61B4192506E175008383D2 /* TrailsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE61B4182506E175008383D2 /* TrailsMapView.swift */; };
+		BEF16CA024F05C60006DA53A /* TrailsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF16C9F24F05C60006DA53A /* TrailsTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BE1A4F8D24EC69EF007E1509 /* MapKitTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1A4F8D24EC69EF007E1509 /* Strava Routes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strava Routes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1A4F9024EC69EF007E1509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE1A4F9224EC69EF007E1509 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BE1A4F9424EC69EF007E1509 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE1A4F9724EC69EF007E1509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE1A4F9924EC69F3007E1509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE1A4F9C24EC69F3007E1509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE1A4F9E24EC69F4007E1509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		BE1A4FAE24EC69F4007E1509 /* MapKitTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKitTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1A4FB224EC69F4007E1509 /* MapKitTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitTestProjectUITests.swift; sourceTree = "<group>"; };
 		BE1A4FB424EC69F4007E1509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1A4FC024EDA45D007E1509 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		BE1A4FC224EDBCF8007E1509 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		BE1A4FCB24EF0477007E1509 /* GPXFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GPXFiles; sourceTree = "<group>"; };
+		BE61B4182506E175008383D2 /* TrailsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailsMapView.swift; sourceTree = "<group>"; };
+		BEF16C9F24F05C60006DA53A /* TrailsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailsTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +97,7 @@
 		BE1A4F8E24EC69EF007E1509 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE1A4F8D24EC69EF007E1509 /* MapKitTestProject.app */,
+				BE1A4F8D24EC69EF007E1509 /* Strava Routes.app */,
 				BE1A4FA324EC69F4007E1509 /* MapKitTestProjectTests.xctest */,
 				BE1A4FAE24EC69F4007E1509 /* MapKitTestProjectUITests.xctest */,
 			);
@@ -99,13 +107,11 @@
 		BE1A4F8F24EC69EF007E1509 /* MapKitTestProject */ = {
 			isa = PBXGroup;
 			children = (
-				BE1A4F9024EC69EF007E1509 /* AppDelegate.swift */,
-				BE1A4F9224EC69EF007E1509 /* SceneDelegate.swift */,
-				BE1A4F9424EC69EF007E1509 /* ViewController.swift */,
-				BE1A4F9624EC69EF007E1509 /* Main.storyboard */,
-				BE1A4F9924EC69F3007E1509 /* Assets.xcassets */,
-				BE1A4F9B24EC69F3007E1509 /* LaunchScreen.storyboard */,
+				BE61B41C2506E236008383D2 /* Support */,
+				BE61B41A2506E204008383D2 /* CustomViews */,
 				BE1A4F9E24EC69F4007E1509 /* Info.plist */,
+				BE1A4F9424EC69EF007E1509 /* ViewController.swift */,
+				BE1A4FCB24EF0477007E1509 /* GPXFiles */,
 			);
 			path = MapKitTestProject;
 			sourceTree = "<group>";
@@ -128,6 +134,28 @@
 			path = MapKitTestProjectUITests;
 			sourceTree = "<group>";
 		};
+		BE61B41A2506E204008383D2 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				BEF16C9F24F05C60006DA53A /* TrailsTableView.swift */,
+				BE61B4182506E175008383D2 /* TrailsMapView.swift */,
+				BE1A4FC024EDA45D007E1509 /* CustomAnnotation.swift */,
+				BE1A4FC224EDBCF8007E1509 /* Place.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		BE61B41C2506E236008383D2 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A4F9B24EC69F3007E1509 /* LaunchScreen.storyboard */,
+				BE1A4F9924EC69F3007E1509 /* Assets.xcassets */,
+				BE1A4F9024EC69EF007E1509 /* AppDelegate.swift */,
+				BE1A4F9224EC69EF007E1509 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,7 +173,7 @@
 			);
 			name = MapKitTestProject;
 			productName = MapKitTestProject;
-			productReference = BE1A4F8D24EC69EF007E1509 /* MapKitTestProject.app */;
+			productReference = BE1A4F8D24EC69EF007E1509 /* Strava Routes.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BE1A4FA224EC69F4007E1509 /* MapKitTestProjectTests */ = {
@@ -233,8 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE1A4F9D24EC69F3007E1509 /* LaunchScreen.storyboard in Resources */,
+				BE1A4FCC24EF0478007E1509 /* GPXFiles in Resources */,
 				BE1A4F9A24EC69F3007E1509 /* Assets.xcassets in Resources */,
-				BE1A4F9824EC69EF007E1509 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE1A4F9524EC69EF007E1509 /* ViewController.swift in Sources */,
+				BE61B4192506E175008383D2 /* TrailsMapView.swift in Sources */,
 				BE1A4F9124EC69EF007E1509 /* AppDelegate.swift in Sources */,
 				BE1A4F9324EC69EF007E1509 /* SceneDelegate.swift in Sources */,
+				BE1A4FC124EDA45D007E1509 /* CustomAnnotation.swift in Sources */,
+				BEF16CA024F05C60006DA53A /* TrailsTableView.swift in Sources */,
+				BE1A4FC324EDBCF8007E1509 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BE1A4F9624EC69EF007E1509 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE1A4F9724EC69EF007E1509 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE1A4F9B24EC69F3007E1509 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,12 +461,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84XX2W7G34;
 				INFOPLIST_FILE = MapKitTestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.collin-browse.MapKitTestProject";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.collin-browse.StravaRoutes";
+				PRODUCT_NAME = "Strava Routes";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,12 +480,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84XX2W7G34;
 				INFOPLIST_FILE = MapKitTestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.collin-browse.MapKitTestProject";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.collin-browse.StravaRoutes";
+				PRODUCT_NAME = "Strava Routes";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
